@@ -6,7 +6,7 @@ public class coordinate {
         double a = sc.nextDouble();
         double b = sc.nextDouble();
         if(a == 0.0 && b == 0.0){
-            System.out.println("origem");
+            System.out.println("Origem");
         }
         else if(a == +0.0){
             System.out.println("Eixo Y");
@@ -21,6 +21,7 @@ public class coordinate {
             System.out.println("Q2");
         }
         else if(a<0.0 && b<0.0){
+            System.out.println("Q3");
 
         }
      else{
