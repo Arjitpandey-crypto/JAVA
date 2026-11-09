@@ -1,0 +1,26 @@
+//codeforeces sheet 2 (problem:-Q)
+
+import java.util.*;
+public class Digits {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+            int n =sc.nextInt();
+           if(n == 0){
+            System.out.println(0);
+           }
+           else{
+            while(n > 0 ){
+                int digit = n % 10;
+                System.out.print(digit);
+                n = n / 10;
+                if(n > 0){
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+           }
+        }
+    }
+}
